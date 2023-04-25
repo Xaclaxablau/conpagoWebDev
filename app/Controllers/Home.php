@@ -5,7 +5,7 @@ namespace App\Controllers;
 class Home extends BaseController
 {
     public function getIndex()
-    {   //
+    {   
         return
             view('templates/header') .
             view('templates/navbar') .
